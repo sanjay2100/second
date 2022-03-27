@@ -10,6 +10,8 @@ System.out.println("Enter number of array elements");
 int m= sc.nextInt();
 int a[]=new int[100];
 
+//change 1
+
 System.out.println("Enter the array elements");
 	
 for(int i=0;i<m;i++)
