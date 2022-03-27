@@ -7,19 +7,19 @@ public static void main(String arg[])
 {
 Scanner sc= new Scanner(System.in);
 System.out.println("Enter number of array elements");
-int n= sc.nextInt();
+int m= sc.nextInt();
 int a[]=new int[100];
 
 System.out.println("Enter the array elements");
-	//mychange
-for(int i=0;i<n;i++)
+	
+for(int i=0;i<m;i++)
 {
 	a[i]=sc.nextInt();
 }
 
 //Arrays.sort(a);
 System.out.println("The array elements are");
-for(int i=0;i<n;i++)
+for(int i=0;i<m;i++)
 {
 	System.out.println(a[i]);
 
